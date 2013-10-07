@@ -8,7 +8,7 @@ There are 2 steps:
     $ npm install
     $ coffee c2py.coffee
 
-### Calling the server
+## Calling the server
 
     curl -X POST -H "Content-Type: application/json" -d '{"code": "x = range(10)"}' localhost:3000
     curl -X POST -H "Content-Type: application/json" -d '{"code": "x"}' localhost:3000
